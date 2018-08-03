@@ -1,9 +1,15 @@
-.topmenu {
+.top-menu {
     float: right;
     padding: 20px 0px 0px 0px;
     background-color: white;
-    
-    
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #dddddd;
 }
 
 .top {
@@ -23,11 +29,11 @@
     margin: 10px;
 }
 
-.topmargin {
+.top-margin {
     background-color: white;
 }
 
-.aboutbody {
+.about-body {
     clear: both;
     margin: auto;
     width: 960px;
@@ -39,7 +45,7 @@
     color: #777777;
 }
 
-.aboutheader {
+.about-header {
     font-size: 25px;
     font-family: 'Georgia', 'Times New Roman', Times, serif; 
     border-bottom: 2px solid #cccccc;
@@ -50,7 +56,7 @@
     font-weight: bold;
 }
 
-.contactheader {
+.contact-header {
     font-size: 25px;
     font-family: 'Georgia', 'Times New Roman', Times, serif; 
     border-bottom: 2px solid #cccccc;
@@ -61,7 +67,7 @@
     margin:auto;
 }
 
-.profilepic {
+.profile-pic {
     float: left;
     margin: 20px;
 }
@@ -70,7 +76,7 @@
     text-align: center;
     margin: auto;
     font-size: 10px;
-    color: #777777;
+    color: white;
     padding: 20px 0px 0px 0px;
     background-color: #666666;
     border-top-style: solid;
@@ -95,13 +101,13 @@
     
 }
 
-.menuitem {
+.menu-item {
     padding: 5px;
 }
 
 
 
-.contactbody {
+.contact-body {
     clear: both;
     margin: auto;
     width: 960px;
@@ -133,5 +139,12 @@ input {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
 
+.pic1 {
+    float: left;
+}
+
+.pic2 {
+    float: left;
 }
