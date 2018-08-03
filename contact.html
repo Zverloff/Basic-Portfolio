@@ -6,17 +6,38 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
-    <body>
-        <div>
-            <h1>Todd Zverloff</h1>
+    <body background="assets/images/background.png">
+        <div class="top">
+            <div class="top2">
+
+            <h1 class="name">Todd Zverloff</h1>
+
+            <div class="topmenu">
+                <a class="menuitem" href="index.html">About</a>
+                <a class="menuitem" href="portfolio.html">Portfolio</a>
+                <a class="menuitem" href="contact.html">Contact</a>
+            </div>
+            </div>
+        </div>
         
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+        <div class="contactbody">
+            <h1 class="contactheader">Contact</h1>
+            <div>
+                <form>
+                    Name<br>
+                    <input type="text" name="name" onfocus="this.placeholder = ''" placeholder="TEST"><br>
+                    Email<br>
+                    <input type="text" name="email" value="example@gmail.com"><br>
+                    Message<br>
+                    <!--<input type="text" name="message">-->
+                    <textarea>TEST</textarea>
+                </form>
+            </div>
+            
         </div>
 
         <div>
-            <p>Copyright &#169 2018</p>
+            <p class="footer">Copyright &#169 2018</p>
         </div>
     </body>
 </html>
